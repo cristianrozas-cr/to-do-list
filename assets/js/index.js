@@ -28,8 +28,8 @@ const ultimaTarea = tareas[tareas.length - 1];
 
 //Calculo de las tareas realizadas
 function realizada(id){
-    const indice = tareas.findIndex((ele) => ele === id);  //encontrar id
-    tareas[indice].estado=true;                           //Cambiar el estado del objeto
+    const indice = tareas.findIndex((ele) => ele === id);  //encontrar id                         
+    //Cambiar el estado del objeto
     let tareasRealizadas = tareas.filter((tarea) => tarea.estado === true);
     console.log(tareasRealizadas.length)
     totalRealizadas.innerHTML = tareasRealizadas.length;
