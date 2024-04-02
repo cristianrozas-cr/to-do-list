@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .layout {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+  }
+
+  .todolist{
+    background-color: rgba(21, 75, 202, 0.62);
+    padding: 2rem;
+    width: 50rem;
+    border-radius: 5px;
+  }
+
+.agregar-tarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+#boton-tareas{
+    border: none;
+    border-radius: 3px;
+    padding: 3px 10px;
+}

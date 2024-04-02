@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <div class="container">
+    <section class="todolist">
+      <div class="agregar-tarea">
+        <p>Agregar una nueva tarea</p>
+        <div>
+          <input id="input-tareas" placeholder="Nueva tarea..." type="text" />
+          <button id="boton-tareas">Agregar</button>
+        </div>
+      </div>
+      <section class="layout">
+        <div>
+          <p>Total: <span id="total-tareas">3</span></p>
+          <p>Realizadas: <span id="total-realizadas">0</span></p>
+        </div>
+        <div>
+          <div class="card">
+            <h3>ID</h3>
+            <h3>Tarea</h3>
+          </div>
+          <div id="lista-tareas">
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/45de8d0977.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
